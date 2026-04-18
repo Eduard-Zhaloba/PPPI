@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="ZABA/ZABA.vcxproj" />
+  <Project Path="ZABA/ZABA.vcxproj" Id="bb9ff554-e3e3-48bf-970c-428369539ef2" />
 </Solution>
