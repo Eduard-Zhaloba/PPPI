@@ -13,5 +13,5 @@
 
 ## Команда
 - Eduard Zhaloba (Team Lead)
-- Yaroslav Pryymak
+- Yaroslav Pryimak
 - Oleksandr Sadchenko
