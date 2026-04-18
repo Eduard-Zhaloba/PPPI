@@ -8,8 +8,8 @@ double get_sin(double x);
 double get_cos(double x);
 double get_tan(double x);
 double get_ctg(double x);
+/// <summary>
 
-int main() {
     int count;
     cout << "+Trigonometric Calculator+" << endl;
     cout << "How many operations do you want to perform? ";
