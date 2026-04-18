@@ -18,11 +18,11 @@ int main() {
     double result = 0;
 
     for (int i = 0; i < count; i++) {
-        int choice;
+        string choice;
         double angle;
 
         cout << "\nSelect function for step " << i + 1 << ":" << endl;
-        cout << "1 - Sin, 2 - Cos, 3 - Tan, 4 - Ctg" << endl;
+        cout << "sin, cos, tan, ctg" << endl;
         cout << "Your choice: ";
         cin >> choice;
 
@@ -31,10 +31,10 @@ int main() {
 
         double current_val = 0;
 
-        if (choice == 1) current_val = get_sin(angle);
-        else if (choice == 2) current_val = get_cos(angle);
-        else if (choice == 3) current_val = get_tan(angle);
-        else if (choice == 4) current_val = get_ctg(angle);
+        if (choice == "sin") current_val = get_sin(angle);
+        else if (choice == "cos") current_val = get_cos(angle);
+        else if (choice == "tan") current_val = get_tan(angle);
+        else if (choice == "ctg") current_val = get_ctg(angle);
 
         if (i == 0) {
             result = current_val;
@@ -62,7 +62,3 @@ int main() {
     return 0;
 }
 
-double get_sin(double x) { return 0; }
-double get_cos(double x) { return 0; }
-//////
-/////////

@@ -128,6 +128,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\Python.cpp" />
     <ClCompile Include="..\ZABA\ZABA.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
