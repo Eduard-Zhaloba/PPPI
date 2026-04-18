@@ -1,14 +1,14 @@
 ﻿#include <iostream>
 #include <cmath>
-
+const double PI = 3.14159265358979323846;
 double get_tan(double x) {
-    if (x == 90 || x == 270) {
+    if (x == 90 or x == 270) {
         std::cerr << "Error: tan is undefined at " << x << " degrees." << std::endl;
         return NAN; 
 	}
     else {
        
-        double radians = x * 3.14159265358979323846 / 180.0;
+        double radians = x * PI / 180.0;
         return tan(radians);
 		 
     }
@@ -22,7 +22,7 @@ double get_ctg(double x) {
     }
     else {
        
-        double radians = x * 3.14159265358979323846 / 180.0;
+        double radians = x * PI / 180.0;
         return 1.0 / tan(radians);
 		 
     }
