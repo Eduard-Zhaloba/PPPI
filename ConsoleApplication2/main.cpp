@@ -11,7 +11,7 @@ double get_ctg(double x);
 
 int main() {
     int count;
-    cout << "Trigonometric Calculator" << endl;
+    cout << "Trigonometric Calculator2" << endl;
     cout << "How many operations do you want to perform? ";
     cin >> count;
 
